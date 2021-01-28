@@ -1,0 +1,89 @@
+.html {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  height: 100%;
+  overflow: hidden;
+}
+
+.container{
+  background-color: whitesmoke;
+  align-content: center;
+  border-radius: 5px;
+  box-shadow: 0px 5px 20px rgb(70, 70, 70);
+  margin: 2.5%;
+  max-width: 45%;
+  position: relative;
+  display: inline-block;
+}
+.searchDiv{
+  text-align: center;
+}
+.searchIcon{
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  padding-top: 10px;
+  padding-right: 5px;
+  position: relative;
+}
+.searchBar{
+  border: black;
+  border-style: groove;
+  border-width: 2px;
+  align-content: center;
+  display: inline-flex;
+  width: 50%;
+  padding: 10px;
+  position: relative;
+}
+
+.details{
+  margin: 2%;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  text-align: left;
+  display: inline-block;
+  white-space: normal;
+  overflow: hidden;
+}
+.productName{
+  min-height: 2.5em;
+}
+.homePage{
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  text-align: center;
+}
+.productDetails{
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  text-align: center;
+  display: block;
+  overflow: hidden;
+}
+.imgContainer{
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.welcomeText{
+  color: black;
+  text-align: center;
+
+}
+
+.logo{
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5vh;
+  display: block;
+  width: 50%;
+}
+.carouselImage{
+  max-height: 70vh;
+}
+.altImage{
+  box-shadow: 0px 10px 20px rgb(70, 70, 70);
+  margin-top: 5vh;
+  max-width: 80%;
+}
